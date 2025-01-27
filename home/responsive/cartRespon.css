@@ -1,0 +1,128 @@
+@media (max-width: 575.99px) {
+  nav .nav-icon-svg i {
+    display: none;
+  }
+  .navbar-light .navbar-toggler {
+    display: none;
+  }
+  .collapse:not(.show) {
+    display: block;
+  }
+  .navbar-light .navbar-brand img {
+    display: none;
+  }
+  nav .navbar-nav {
+    display: none;
+  }
+  nav .input-svg {
+    left: 16px;
+  }
+  nav .navber-right .input-search input {
+    font-size: 15px;
+    padding: 14px 40px 14px 55px;
+  }
+  nav .more-icon i {
+    font-style: 20px;
+    color: rgba(18, 18, 18, 0.65);
+  }
+  nav .more-icon .icon-comment {
+    display: none;
+  }
+  nav .more-icon {
+    column-gap: 15px;
+  }
+  #cart {
+    margin-top: 10px;
+    margin-bottom: 117px;
+  }
+  #cart .cart-left h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #cart .cart-left-top .box {
+    width: 18px;
+    height: 18px;
+  }
+  #cart .cart-left-top .text h5 {
+    font-size: 14px;
+  }
+  #cart .card-top-right h6 {
+    font-size: 14px;
+  }
+  #cart .left-box .header {
+    column-gap: 12px;
+  }
+  #cart .cart-left-buttom {
+    padding: 20px 24px 16px 24px;
+  }
+  #cart .cart-left-buttom .header .form-check .form-check-input {
+    width: 18px;
+    height: 18px;
+  }
+  #cart .cart-left-buttom .header .text h5 {
+    font-size: 11px;
+  }
+  #cart .cart-left-buttom .box-item .box-img {
+    width: 75px;
+    height: 75px;
+  }
+  #cart .cart-left-buttom .box-item {
+    column-gap: 10px;
+    margin-top: 0px;
+  }
+  #cart .cart-left-buttom .box-item .box-text h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  #cart .cart-left-buttom .box-item .box-text p {
+    color: rgba(18, 18, 18, 0.721);
+    font-size: 11px;
+  }
+  #cart .cart-left-buttom .box-item .box-text {
+    margin-top: 0px;
+  }
+  #cart .cart-left-buttom .box-number .item-svg {
+    width: 32px;
+    height: 32px;
+  }
+  #cart .cart-left-buttom .box-number .item-svg i {
+    font-size: 14px;
+  }
+  #cart .cart-left-buttom .box-number .item h5 {
+    font-size: 16px;
+  }
+  #cart .cart-left-buttom .box-number {
+    column-gap: 20px;
+  }
+  #cart .cart-right {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #cart .cart-right button {
+    font-size: 14px;
+  }
+  #cart .cart-right .promo a img {
+    width: 17px;
+  }
+  #cart .cart-right .promo a {
+    font-size: 17px;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  #cart .cart-right h2 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  #cart .cart-right .items-rp h4 {
+    font-size: 14px;
+  }
+  #cart .cart-right .items-totle h4 {
+    font-size: 14px;
+  }
+  #cart .cart-right .items-rp p {
+    font-size: 14px;
+  }
+  #cart .cart-right .items-totle p {
+    font-size: 14px;
+  }
+}

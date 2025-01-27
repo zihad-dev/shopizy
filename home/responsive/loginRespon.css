@@ -1,0 +1,57 @@
+@media (max-width: 575.99px) {
+    #login .box {
+      max-width: 100%;
+      padding: 0 20px;
+      border-radius: 0;
+      border: none;
+    }
+    #login .box-head h3 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    #login .header {
+      display: none;
+    }
+    #login .input button {
+      font-size: 16px;
+    }
+    #login .box span {
+      font-size: 13px;
+      position: relative;
+    }
+    #login .box span::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #c4c4c4;
+      position: absolute;
+      left: -100px;
+      top: 50%;
+    }
+    #login .box span::before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #c4c4c4;
+      position: absolute;
+      right: -100px;
+      top: 50%;
+    }
+    #login .box .box-btn a {
+      font-size: 14px;
+    }
+  
+    /* #signup .box .box-btn a img {
+      width: 22px;
+    } */
+    #login .box .box-btn p {
+      font-size: 13px;
+    }
+    #login .box .box-btn p strong {
+      font-size: 13px;
+    }
+    #login .input a {
+        font-size: 13px;
+    }
+  }
+  

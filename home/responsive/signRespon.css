@@ -1,0 +1,53 @@
+@media (max-width: 575.99px) {
+  #signup .box {
+    max-width: 100%;
+    padding: 0 20px;
+    border-radius: 0;
+    border: none;
+  }
+  #signup .box-head h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #signup .header {
+    display: none;
+  }
+  #signup .input button {
+    font-size: 16px;
+  }
+  #signup .box span {
+    font-size: 13px;
+    position: relative;
+  }
+  #signup .box span::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: -100px;
+    top: 50%;
+  }
+  #signup .box span::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+  }
+  #signup .box .box-btn a {
+    font-size: 14px;
+  }
+
+  /* #signup .box .box-btn a img {
+    width: 22px;
+  } */
+  #signup .box .box-btn p {
+    font-size: 13px;
+  }
+  #signup .box .box-btn p strong {
+    font-size: 13px;
+  }
+}

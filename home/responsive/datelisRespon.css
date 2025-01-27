@@ -1,0 +1,245 @@
+@media (max-width: 575.99px) {
+  nav .nav-icon-svg i {
+    display: none;
+  }
+  .navbar-light .navbar-toggler {
+    display: none;
+  }
+  .collapse:not(.show) {
+    display: block;
+  }
+  .navbar-light .navbar-brand img {
+    display: none;
+  }
+  nav .navbar-nav {
+    display: none;
+  }
+  nav .input-svg {
+    left: 16px;
+  }
+  nav .navber-right .input-search input {
+    font-size: 15px;
+    padding: 14px 40px 14px 55px;
+  }
+  nav .more-icon i {
+    font-style: 20px;
+    color: rgba(18, 18, 18, 0.65);
+  }
+  nav .more-icon .icon-comment {
+    display: none;
+  }
+  nav .more-icon {
+    column-gap: 15px;
+  }
+  #card {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  #card .cardImg-one {
+    height: 320px;
+    margin-bottom: 15px;
+  }
+  #card .cardImg-two {
+    display: none;
+  }
+  #card .card-right p {
+    font-size: 10px;
+  }
+  #card .card-right h4 {
+    font-size: 18px;
+  }
+  #card .card-right h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #card .card-right .dicount-rp {
+    font-size: 15px;
+  }
+  #card .card-right .revew i {
+    font-size: 17px;
+  }
+  #card .card-right .revew h6 {
+    font-size: 14px;
+  }
+  #card .card-right .revew span {
+    font-size: 13px;
+  }
+  #card .card-right .color {
+    flex-direction: column;
+    margin-bottom: 20px;
+    row-gap: 10px;
+    align-items: start;
+  }
+  #card .card-right .color span {
+    font-size: 14px;
+  }
+  #card .card-right .color .main-color .item1 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+  }
+  #card .card-right .color .main-color .item2 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+  }
+  #card .card-right .color .main-color .item3 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+  }
+  #card .card-right .color .main-color .item4 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+  }
+  #card .card-right .size {
+    flex-direction: column;
+    margin-bottom: 20px;
+    row-gap: 10px;
+    align-items: start;
+  }
+  #card .card-right .size span {
+    font-size: 14px;
+  }
+
+  #card .card-right .size .main-size .item h6 {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  #card .card-right .card-btn .i-btn {
+    font-size: 20px;
+    color: #456ed6;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+  #card .card-right .card-btn a {
+    font-size: 14px;
+    padding: 22px 40px;
+  }
+  #card .card-right {
+    margin-left: 0px;
+  }
+  #card .card-right .card-btn {
+    column-gap: 30px;
+  }
+  #description .desc-head {
+    display: none;
+  }
+  #description {
+    margin: 0px 0;
+  }
+  #description .content p {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  #product .product-head h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #product .pro-img {
+    height: 150px;
+  }
+  #product .pro-text h4 {
+    font-size: 12px;
+    margin-bottom: 2px;
+    height: 30px;
+  }
+  #product .pro-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #review .review-header h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  #review .review-left .review-cont h2 {
+    font-size: 42px;
+  }
+  #review .review-left .review-cont p {
+    font-size: 9px;
+  }
+  #review .review-left {
+    margin: 0;
+    max-width: 140px;
+    height: 140px;
+    border: 5px solid #ffc540;
+  }
+  #review .review-right .star i {
+    font-size: 13px;
+  }
+  #review .review-right .prod-btn a {
+    font-size: 14px;
+  }
+  #review .review-right .btn-star {
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  #review .review-right .btn-star a {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  #review .rev-castumer {
+    margin-top: 35px;
+  }
+  #review .rev-left .coust-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  #review .rev-left {
+    margin-top: 20px;
+  }
+  #review .rev-left .coust-name-df h4 {
+    font-size: 16px;
+  }
+  #review .rev-center {
+    margin-top: 0px;
+  }
+  #review .rev-center p {
+    font-size: 14px;
+    margin-left: 0;
+  }
+  #review .rev-right {
+    display: none;
+  }
+  #review .rev-left .coust-name-df ul li {
+    color: #ffc540;
+    font-size: 18px;
+  }
+  #review .coust-name-df {
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+  #review .review-bottom {
+    column-gap: 40px;
+  }
+  #review .review-bottom .item-svg {
+    width: 50px;
+    height: 50px;
+  }
+  #review .review-bottom .item h3 {
+    font-size: 25px;
+  }
+  #review {
+    margin-bottom: 30px;
+  }
+  #other .other-header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #other .pro-img {
+    height: 150px;
+  }
+  #other .pro-text h4 {
+    font-size: 12px;
+    height: 25px;
+  }
+  #other .pro-text h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

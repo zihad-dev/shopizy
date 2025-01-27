@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopizy</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style  -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/cheakout.css" />
+    <link rel="stylesheet" href="../responsive/cheakRespon.css">
+  </head>
+  <body>
+    <!-- navber part start  -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="display: flex; flex-direction: column"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/Shopizy.svg" alt="shopizy" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Virtual Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Product Category</a
+              >
+            </li>
+          </ul>
+          <div class="navber-input">
+            <div class="navber-right">
+              <div class="input-search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search anything"
+                  aria-label="Search"
+                />
+              </div>
+              <div class="input-svg">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+            </div>
+            <div
+              class="more-icon"
+              style="display: flex; column-gap: 30px; align-items: center"
+            >
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-comment"></i>
+              <div class="nav-images"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nevber-line"></div>
+    </nav>
+    <!-- navber part end -->
+
+    <!-- cart part end -->
+    <section id="cheakout">
+      <div class="container">
+        <div class="header">
+          <h2>Checkout</h2>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6 col-6">
+                <div class="step">
+                  <span>1 of 2 Step </span>
+                  <div class="line"></div>
+                  <div class="check-box">
+                    <h6>1</h6>
+                    <p>Set the order</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-6" style="margin-top: 27px">
+                <div class="step">
+                  <div class="line"></div>
+                  <div class="check-box">
+                    <h6>2</h6>
+                    <p>Set the payment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="addres">
+              <div class="row">
+                <div class="col-lg-1 col-1">
+                  <div class="addres-box-logo">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                </div>
+                <div class="col-lg-11 col-11">
+                  <div class="addres-box-text">
+                    <h3>Shipping Address</h3>
+                    <h4>Achmad Fiqrih Ar Rachman (Home)</h4>
+                    <p>
+                      177A Bleecker Street, New York City, NY 10012-1406, on the
+                      corner of Bleecker Street and Fenno Place in the heart of
+                      Greenwich Village.
+                    </p>
+                    <a href="#">Edit Address</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ................ -->
+            <div class="office">
+              <div class="row">
+                <div class="col-lg-1 col-1">
+                  <div class="addres-box-logo">
+                    <img src="../images/office.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-11 col-11">
+                  <div class="addres-box-text">
+                    <h3>Nike Official</h3>
+                    <h6>Jakarta</h6>
+                    <div class="row">
+                      <div class="col-lg-3 col-3">
+                        <div class="office-box-img"></div>
+                      </div>
+                      <div class="col-lg-6 col-6">
+                        <div class="office-box-text">
+                          <h2>Shoes Waffle One</h2>
+                          <p>Rp 1.999.000</p>
+                          <span>154 gram</span>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-3">
+                        <div class="office-box-item">
+                          <h5>1 Item(s)</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .......................... -->
+            <div class="shipment">
+              <div class="row">
+                <div class="col-lg-1 col-1">
+                  <div class="addres-box-logo">
+                    <img src="../images/shipment.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-11 col-11">
+                  <div class="addres-box-text">
+                    <h3>Shipment</h3>
+                    <div class="regular">
+                      <div class="row">
+                        <div class="col-lg-10 col-10">
+                          <div class="regular-text">
+                            <h4>Regular (2-4 Work days)</h4>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-2">
+                          <div class="regular-icon">
+                            <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ;;;;;;;;;;;;;;;; -->
+                    <div class="flaship">
+                      <div class="row">
+                        <div class="col-lg-6 col-6">
+                          <div class="regular-text">
+                            <h4>Courier</h4>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                          <div class="regular-right">
+                            <p>Rp 23.000</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="flaship-bottom">
+                            <img src="../images/flashipB.png" alt="">
+                            <h5>Flaship</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="cart-right">
+              <div class="promo">
+                <a class="promo-code" href="#"
+                  ><img src="../images/promo.svg" alt="" />Use Promo Code</a
+                >
+              </div>
+              <h2>Shopping summary</h2>
+              <div class="price">
+                <div class="items-rp">
+                  <h4>Total Price (items)</h4>
+                  <p>Rp348.000</p>
+                </div>
+                <div class="items-rp">
+                  <h4>Total Discount item(s)</h4>
+                  <p>-Rp348.000</p>
+                </div>
+                <div class="line"></div>
+                <div class="items-totle">
+                  <h4>GrandTotal</h4>
+                  <p>Rp 3.999.000</p>
+                </div>
+              </div>
+              <button>Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cart part end -->
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
