@@ -115,14 +115,19 @@ nav .navbar-nav {
 }
 #bnner .carousel-item {
   border-radius: 20px;
+  max-width: 95%;
   height: 745px;
   overflow: hidden;
   text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 #bnner .carousel-item img {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+
+
 }
 #bnner .carousel-indicators [data-bs-target] {
   width: 11px;
@@ -342,8 +347,7 @@ nav .navbar-nav {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
-  margin-top: 7px;
+  margin-top: 20px;
 }
 #sale .sale-item p {
   color: rgba(255, 255, 255, 0.7);
@@ -486,7 +490,7 @@ nav .navbar-nav {
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  line-height: 109.5%;
 }
 /* categprie css end  */
 
